@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FundoImobiliario"
+    android:background="@color/cinza">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margen"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/pequeno"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:text="Cadastro de Fundo Imobiliario"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margen"
+                />
+            <EditText
+                android:id="@+id/txtNomedoFundo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pequeno"
+                android:hint="Digite o nome do Fundo Imobiliario"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margen"
+                android:inputType="text"
+                />
+            <EditText
+                android:id="@+id/txtSigradofundo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pequeno"
+                android:hint="Digite sua sigla"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margen"
+                android:inputType="text"
+                />
+            <EditText
+                android:id="@+id/txtValorpagoemcadacota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/pequeno"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:hint="Digite o valor pago em cada cota"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margen"
+                android:inputType="numberDecimal"
+                />
+            <EditText
+                android:id="@+id/txtQuantidadedecotascomprados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pequeno"
+                android:hint="Digite a quantidade de cotas adquiridas"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margen"
+                android:inputType="number"
+                />
+            <EditText
+                android:id="@+id/txtDatadacompra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/pequeno"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:hint="Data da compra"
+                android:gravity="center"
+                android:inputType="date"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            >
+            <Button
+                android:id="@+id/btnRetornar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pequeno"
+                android:text="@string/Retornar"
+                />
+            <Button
+                android:id="@+id/btnTelaPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/pequeno"
+                android:text="@string/RetornarTelaPrincipal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="renda_fixa">Renda Fixa</string>
+    <string name="renda_variaveis">Renda Variavel</string>
+    <string name="juros_simples">Juros Simples</string>
+    <string name="juros_compostos">Juros Compostos</string>
+    <string name="regra_de_tres">Regra de 3</string>
+    <string name="botao">Calcular</string>
+</resources>
